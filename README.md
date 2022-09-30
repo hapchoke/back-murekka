@@ -1,5 +1,4 @@
-# murekka
-無劣化転送
+# 無劣化転送
 画像を気軽にアップロード、ダウンロードできます。
 https://harukifreedomein.tk/
 # 使用技術
