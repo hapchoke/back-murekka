@@ -9,7 +9,7 @@ https://harukifreedomein.tk/
 - Docker
 - html/css/javascript
 # インフラ構成図
-![This is an image](./media/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202022-09-30%20%E5%8D%88%E5%BE%8C3.22.23.png)
+![This is an image](./media/infra-stracture.png)
 - フロント(サイトの表示)はS3の静的ウェブサイトホスティングをCloudFront+Route53でカスタムドメイン付きのhttps通信
 - サーバーサイドはpublic subnetにfargate、private subnetにPostgreSQL、fargateの前にACMの証明書をいれたALBを配置しhttps通信
 - ストレージはS3
