@@ -14,7 +14,7 @@ https://harukifreedomein.tk/
 - フロント(サイトの表示)はS3の静的ウェブサイトホスティングをCloudFront+Route53でカスタムドメイン付きのhttps通信
 - サーバーサイドはpublic subnetにfargate、private subnetにPostgreSQL、fargateの前にACMの証明書をいれたALBを配置しhttps通信
 - ストレージはS3
-- 開発時はpytestを実行し、linter、formatterも利用
+- pytest、linter、formatterも使用
 # 機能一覧
 - 画像のアップロード、ダウンロード
 - 選択・取得画像の拡大表示、削除、保存
