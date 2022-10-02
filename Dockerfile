@@ -1,6 +1,3 @@
-# FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
-
-# COPY ./app /app
 FROM python:3.10
 
 RUN pip install fastapi uvicorn

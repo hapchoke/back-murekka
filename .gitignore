@@ -2,3 +2,9 @@
 /app/.env
 
 .DS_Store
+
+/env
+/app/tests/test.db
+
+__pycache__
+.pytest_cache
